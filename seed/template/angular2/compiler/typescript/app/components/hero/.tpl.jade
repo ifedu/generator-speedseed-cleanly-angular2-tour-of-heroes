@@ -1,0 +1,11 @@
+div('*ngIf'='hero')
+    h2 {{ hero.name }} details!
+    div
+        label id:
+        |  {{ hero.id }}
+
+    div
+        label name:
+        input(placeholder='name'
+            '[(ngModel)]'='hero.name'
+        )
