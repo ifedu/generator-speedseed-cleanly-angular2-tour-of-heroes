@@ -1,4 +1,4 @@
-### v.0.1.0
+### v.0.2.0
 
 ## Tour of Heroes
 
@@ -10,11 +10,13 @@
 - [Spanish](#spanish)
 
 ### Changelog
-- [Changelog](https://github.com/ifedu/generator-speedseed-angular2-whitespace/blob/master/CHANGELOG.md)
+- [Changelog](https://github.com/ifedu/generator-speedseed-cleanly-angular2-tour-of-heroes/blob/master/CHANGELOG.md)
+
+### Styleguide Cleanly
+- https://github.com/ifedu/cleanly-styleguide
 
 ### English
-    - Template Speedseed Angular2 + TypeScript with whitespace syntax (SaSS + Jade/Pug)
-
+    - Template Speedseed based in Tour of Heroes with Angular2 + TypeScript + Styleguide Cleanly
 
 ### Spanish
-    - Plantilla Speedseed Angular2 + TypeScript con whitespace syntax (SaSS + Jade/Pug)
+    - Plantilla Speedseed basada en Tour of Heroes con Angular2 + TypeScript + Styleguide Cleanly

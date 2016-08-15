@@ -1,9 +1,9 @@
 import { Component, Input } from '@angular/core';
-import { Hero } from './class'
+import { Hero } from './hero.class'
 
 @Component({
     selector: 'hero',
-    template: `{%= include('tpl.html') %}`
+    template: `{%= include('hero.html') %}`
 })
 
 export class HeroComponent {

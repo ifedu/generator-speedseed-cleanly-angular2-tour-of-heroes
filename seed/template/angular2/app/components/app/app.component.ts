@@ -1,12 +1,12 @@
 import { Component } from '@angular/core'
-import { Hero } from './../hero/class'
-import { HeroComponent } from './../hero/main'
+import { Hero } from './../hero/hero.class'
+import { HeroComponent } from './../hero/hero.component'
 
 @Component({
     directives: [HeroComponent],
     selector: 'app',
-    styles: [`{%= include('tpl.css') %}`],
-    template: `{%= include('tpl.html') %}`
+    styles: [`{%= include('app.css') %}`],
+    template: `{%= include('app.html') %}`
 })
 
 export class AppComponent {

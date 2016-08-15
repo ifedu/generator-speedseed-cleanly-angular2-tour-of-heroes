@@ -19,6 +19,7 @@
             '@angular/common': index,
             '@angular/compiler': index,
             '@angular/core': index,
+            '@angular/forms': index,
             '@angular/http': index,
             '@angular/platform-browser': index,
             '@angular/platform-browser-dynamic': index,

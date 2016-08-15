@@ -1,9 +1,9 @@
 {
-    "description": "Template generator-speedseed-angular2-whitespace",
-    "homepage": "https://github.com/ifedu/generator-speedseed-angular2-whitespace",
+    "description": "Template generator-speedseed-cleanly-angular2-tour-of-heroes",
+    "homepage": "https://github.com/ifedu/generator-speedseed-cleanly-angular2-tour-of-heroes",
     "main": "generators/app/index.js",
-    "name": "generator-speedseed-angular2-whitespace",
-    "version": "0.1.0",
+    "name": "generator-speedseed-cleanly-angular2-tour-of-heroes",
+    "version": "0.2.0",
 
     "keywords": [
         "yeoman-generator"
@@ -12,11 +12,11 @@
     "author": {
         "name": "Eduardo Pérez-Bermejo",
         "email": "ifedu@outlook.com",
-        "url": "http://www.github.com/ifedu/generator-speedseed-angular2-whitespace"
+        "url": "http://www.github.com/ifedu/generator-speedseed-cleanly-angular2-tour-of-heroes"
     },
 
     "dependencies": {
-        "speedseed": "^0.13.0",
+        "speedseed": "^0.15.0",
         "yeoman-generator": "^0.23.4"
     },
 
