@@ -3,7 +3,7 @@
     "homepage": "https://github.com/ifedu/generator-speedseed-cleanly-angular2-tour-of-heroes",
     "main": "generators/app/index.js",
     "name": "generator-speedseed-cleanly-angular2-tour-of-heroes",
-    "version": "0.2.0",
+    "version": "0.2.1",
 
     "keywords": [
         "yeoman-generator"
@@ -26,6 +26,6 @@
 
     "repository": {
         "type": "git",
-        "url": "https://github.com/ifedu/generator-speedseed-angular2-whitespace"
+        "url": "https://github.com/ifedu/generator-speedseed-cleanly-angular2-tour-of-heroes"
     }
 }
