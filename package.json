@@ -1,9 +1,9 @@
 {
-    "description": "Template generator-speedseed-cleanly-angular2-tour-of-heroes",
+    "description": "Template generator-speedseed-cleanly-angular2-tour-of-heroes for https://www.npmjs.com/package/generator-speedseed",
     "homepage": "https://github.com/ifedu/generator-speedseed-cleanly-angular2-tour-of-heroes",
     "main": "generators/app/index.js",
     "name": "generator-speedseed-cleanly-angular2-tour-of-heroes",
-    "version": "0.2.2",
+    "version": "0.3.0",
 
     "keywords": [
         "yeoman-generator"
@@ -16,7 +16,7 @@
     },
 
     "dependencies": {
-        "speedseed": "^0.17.0",
+        "speedseed": "^0.18.0",
         "yeoman-generator": "^0.23.4"
     },
 

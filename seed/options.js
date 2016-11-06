@@ -1,23 +1,29 @@
-module.exports = {
-    framework: [
+module.exports = [{
+    message: 'Library / Framework?',
+    name: 'framework',
+
+    choices: [
         { name: 'Angular2', value: 'angular2' }
-    ],
-
-    angular2: {
-        compiler: [
-            { name: 'TypeScript', value: 'typescript' }
-        ],
-
-        css: [
-            { name: 'SaSS', value: 'sass' }
-        ],
-
-        html: [
-            { name: 'Jade', value: 'jade' }
-        ]
-    },
-
-    test: [
-        { name: 'Mocha', value: 'mocha' }
     ]
-}
+}, {
+    message: 'HTML?',
+    name: 'html',
+
+    choices: [
+        { name: 'Jade', value: 'jade' }
+    ]
+}, {
+    message: 'JS?',
+    name: 'js',
+
+    choices: [
+        { name: 'TypeScript', value: 'typescript', extra: 'ts' }
+    ]
+}, {
+    message: 'CSS?',
+    name: 'css',
+
+    choices: [
+        { name: 'SaSS', value: 'sass', extra: 'sass' }
+    ]
+}]

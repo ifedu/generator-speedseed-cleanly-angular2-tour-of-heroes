@@ -1,0 +1,20 @@
+h2 My Heroes
+
+ul.heroes
+    li('*ngFor'='let hero of heroes' '(click)'='onSelect(hero)' '[class.selected]'='hero === selectedHero')
+        span.hero-element
+            span.badge {{hero.id}}
+                |  {{hero.name}}
+
+        button.delete-button('(click)'='deleteHero(hero, $event)') Delete
+
+.error('*ngIf'='error') {{error}}
+button('(click)'='addHero()') Add New Hero
+
+div('*ngIf'='addingHero')
+    my-hero-detail('(close)'='close($event)')
+
+div('*ngIf'='selectedHero')
+    h2 {{selectedHero.name | uppercase}} is my hero
+
+    button('(click)'='gotoDetail()') View Details
