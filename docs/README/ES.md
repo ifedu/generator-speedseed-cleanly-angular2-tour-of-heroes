@@ -1,0 +1,2 @@
+- Plantilla para generator-speedseed
+- Plantilla Speedseed basada en Tour of Heroes con Angular2 + TypeScript + Styleguide Cleanly

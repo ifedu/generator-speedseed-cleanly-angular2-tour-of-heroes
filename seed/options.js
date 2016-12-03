@@ -1,29 +1,31 @@
+const set = (name, value, extra, exclude) => ({ name, value, extra, exclude })
+
 module.exports = [{
     message: 'Library / Framework?',
     name: 'framework',
 
     choices: [
-        { name: 'Angular2', value: 'angular2' }
+        set('Angular2', 'angular2')
     ]
 }, {
     message: 'HTML?',
     name: 'html',
 
     choices: [
-        { name: 'Jade', value: 'jade' }
+        set('Jade', 'jade')
     ]
 }, {
     message: 'JS?',
     name: 'js',
 
     choices: [
-        { name: 'TypeScript', value: 'typescript', extra: 'ts' }
+        set('TypeScript', 'typescript', 'ts')
     ]
 }, {
     message: 'CSS?',
     name: 'css',
 
     choices: [
-        { name: 'SaSS', value: 'sass', extra: 'sass' }
+        set('SaSS', 'sass', 'sass')
     ]
 }]
