@@ -1,5 +1,6 @@
 ### v.1.0.0
-    - Update README
+    - Updated to generator-speedseed v.0.24.0
+    - Updated to speedseed v.0.21.0
 
 ### v.0.4.0
     - Updated to generator-speedseed v.0.23.0
