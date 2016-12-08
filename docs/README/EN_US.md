@@ -1,2 +1,0 @@
-- Template for generator-speedseed
-- Template Speedseed based in Tour of Heroes with Angular2 + TypeScript + Styleguide Cleanly
